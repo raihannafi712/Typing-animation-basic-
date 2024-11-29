@@ -1,0 +1,30 @@
+#type_main{
+    background: linear-gradient(to top, #09203f 50%, #537895 100%) !important;
+    padding: 500px 0;
+}
+.type{
+    position: relative;
+}
+.type::after{
+    position:absolute;
+    content:'';
+    height:100%;
+    width:3px;
+    background-color:red;
+    top: 0;
+    right: -5px;
+}
+.typing_test{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.typing_test h2 , span{
+    font-size: 70px;
+    text-align: center;
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white !important;
+}

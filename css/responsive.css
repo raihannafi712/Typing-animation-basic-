@@ -1,0 +1,64 @@
+/* xs start */
+
+@media (min-width:0px) and (max-width:575px){
+    .typing_test h2, span {
+        font-size: 12px;
+    }
+}
+
+/* xs end */
+
+
+/* sm start */
+
+@media (min-width:576px) and (max-width:767.98px){
+    .typing_test h2, span {
+        font-size: 24px;
+    }
+}
+
+/* sm end */
+
+
+/* md start */
+
+@media (min-width:768px) and (max-width:991px){
+    .typing_test h2, span {
+        font-size: 35px;
+    }
+}
+
+/* md end */
+
+
+/* lg start */
+
+@media (min-width:992px) and (max-width:1199px){
+    .typing_test h2, span {
+        font-size: 48px;
+    }
+}
+
+/* lg end */
+
+
+/* xl start */
+
+@media (min-width:1200px) and (max-width:1399px){
+    .typing_test h2, span {
+        font-size: 35px;
+    }
+}
+
+/* xl end */
+
+
+/* xxl start */
+
+@media (min-width:1400px) {
+    .typing_test h2, span {
+        font-size: 64px;
+    }
+}
+
+/* xxl end */
